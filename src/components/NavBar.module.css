@@ -1,0 +1,21 @@
+.navlink-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.navlink {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  /* padding: 0.25rem; */
+  text-decoration: none;
+}
+.active-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #ff715b;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 0.25rem;
+}

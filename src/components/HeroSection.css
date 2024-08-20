@@ -1,0 +1,42 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  height: 750px;
+  padding: 32px;
+}
+.intro-container {
+  width: 600px;
+  color: #404040;
+  font-weight: 400;
+}
+.intro-text {
+  font-size: 3rem;
+  line-height: 40px;
+}
+.banner-logo {
+  height: 620px;
+  width: 620px;
+}
+.text-extra-bold {
+  font-weight: 800;
+}
+.outlined-text {
+  -webkit-text-stroke: 3px #333;
+  -webkit-text-fill-color: transparent;
+}
+.social-container {
+  display: flex;
+  align-items: baseline;
+}
+.socials {
+  border: 1px solid #404040;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.social-logo {
+  height: 1.5rem;
+  width: 1.5rem;
+}

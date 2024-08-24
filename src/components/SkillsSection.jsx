@@ -10,11 +10,11 @@ import Redux from "../../public/assets/redux.svg";
 
 const SkillsSection = () => {
   return (
-    <div className="container">
+    <div className="skills-container">
       <p className="skills-header">
         My <span className="text-extra-bold">Skills</span>
       </p>
-      <div className="skills-container">
+      <div className="skill-container">
         <div className="skills">
           <img src={HTML} className="skill-logo" />
           <p>HTML</p>
